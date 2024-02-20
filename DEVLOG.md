@@ -1,5 +1,9 @@
 # Devlog
 
+## 2024-Feb-20 07:32
+
+Updated ALCHEMY_API_URL default URL from Infura, which was a bit misleading, to Alchemy. 
+
 ## 2024-Feb-04 22:10
 
 I started working on deploying my first test contract to Polygon Mumbai. 
