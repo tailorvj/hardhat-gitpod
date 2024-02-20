@@ -1,5 +1,34 @@
 # Devlog
 
+
+## 2024-Feb-20 14:58
+
+I successfully integrated a basic ERC20 contract into the solution. The folder structure has been updated a bit and I installed a few new libraries that I needed for development purposes. 
+
+You can now create your own ERC20 token with an initial supply that is transferred to your wallet upon contract deployment. 
+
+**Next steps:** 
+
+- Implement ERC721, ERC1155
+- Use ethers.js for deeper contract interactions
+- Mint NFTs with metadata using IPFS/Filecoin/nft.storage, or something similar
+
+
+## 2024-Feb-20 08:02
+
+I started implementing a multiple contracts project structure. I am going to add subfolders for a few standard smart contract types under the contracts, scripts and test folders. 
+
+My target contract types:
+
+- ERC-20
+- ERC-721
+- ERC-1155
+
+I will create the most basic contract first, then implement some variants with various OpenZeppelin features. 
+
+I am using https://wizard.openzeppelin.com/ to generate the contracts. Starting with ERC-20.
+
+
 ## 2024-Feb-20 07:32
 
 Updated ALCHEMY_API_URL default URL from Infura, which was a bit misleading, to Alchemy. 
