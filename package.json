@@ -17,7 +17,7 @@
     "hardhat-network-helpers": "^0.0.1"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.0.1",
+    "@openzeppelin/contracts": "^5.0.2",
     "alchemy-sdk": "^3.1.2",
     "dotenv": "^16.4.1"
   }
